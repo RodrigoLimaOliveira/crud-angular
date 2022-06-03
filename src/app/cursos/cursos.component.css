@@ -1,0 +1,4 @@
+:host ::ng-deep .p-card {
+  margin: 20px auto;
+  width: 95%;
+}
