@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1654803385271,
+  "index": "/crud-angular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/crud-angular/favicon.ico",
+        "/crud-angular/index.html",
+        "/crud-angular/main.83a29041a531b22e.js",
+        "/crud-angular/manifest.webmanifest",
+        "/crud-angular/polyfills.275d6f6378dbf522.js",
+        "/crud-angular/runtime.05923eb5ac7d31fc.js",
+        "/crud-angular/styles.1b7ec5d3d2a97876.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/crud-angular/assets/icons/icon-128x128.png",
+        "/crud-angular/assets/icons/icon-144x144.png",
+        "/crud-angular/assets/icons/icon-152x152.png",
+        "/crud-angular/assets/icons/icon-192x192.png",
+        "/crud-angular/assets/icons/icon-384x384.png",
+        "/crud-angular/assets/icons/icon-512x512.png",
+        "/crud-angular/assets/icons/icon-72x72.png",
+        "/crud-angular/assets/icons/icon-96x96.png",
+        "/crud-angular/color.dae87a04d07ca92b.png",
+        "/crud-angular/hue.8b1818380241e6ac.png",
+        "/crud-angular/primeicons.29151a741d66863a.woff",
+        "/crud-angular/primeicons.5f5d08cd089b4e5d.ttf",
+        "/crud-angular/primeicons.76044b1c189cc4d7.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/crud-angular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/crud-angular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/crud-angular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/crud-angular/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/crud-angular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/crud-angular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/crud-angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/crud-angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/crud-angular/color.dae87a04d07ca92b.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
+    "/crud-angular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/crud-angular/hue.8b1818380241e6ac.png": "f81ae627637a684614aa726e206c73ce099a01fd",
+    "/crud-angular/index.html": "0ddb9982f815376e44ba32f22bfa15eb3267d13f",
+    "/crud-angular/main.83a29041a531b22e.js": "f58c9a6f9f689844958fb539591673481d38eb06",
+    "/crud-angular/manifest.webmanifest": "8f0bbfd6be5a354021dd49f701a23c4edc265fcb",
+    "/crud-angular/polyfills.275d6f6378dbf522.js": "7cd31a884fdbd57b726dd44dd53f831a890c906a",
+    "/crud-angular/primeicons.29151a741d66863a.woff": "21e477ea19e15b66344bcc23b3fbb2161092a707",
+    "/crud-angular/primeicons.5f5d08cd089b4e5d.ttf": "e6c86ca90a9fb4282fb35523d56fde00e78a1416",
+    "/crud-angular/primeicons.76044b1c189cc4d7.svg": "621775b2ec555fd2dd152a24390cf6dfeee168b1",
+    "/crud-angular/runtime.05923eb5ac7d31fc.js": "6b22a0a5ded05ebd38368268862e7196c67405bd",
+    "/crud-angular/styles.1b7ec5d3d2a97876.css": "e8b2ef4d3154e106cb627dbb952ec414a92c511c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
