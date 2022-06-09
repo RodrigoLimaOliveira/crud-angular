@@ -1,0 +1,17 @@
+<p-card header="Novo Curso">
+  <form [formGroup]="form">
+    <span class="p-float-label">
+      <input id="float-input" type="text" pInputText formControlName="name">
+      <label for="float-input">Nome</label>
+    </span>
+    <span class="p-float-label">
+      <p-dropdown [options]="optionsCategory" formControlName="category" optionLabel="label" optionValue="value"></p-dropdown>
+      <label for="float-input">Categoria</label>
+    </span>
+  </form>
+  <ng-template pTemplate="footer">
+    <p-button label="Salvar" icon="pi pi-check" (click)="onSubmit()"></p-button>
+    <p-button label="Cancelar" icon="pi pi-times" styleClass="p-button-secondary" [style]="{'margin-left': '.5em'}" (click)="onCancel()"></p-button>
+</ng-template>
+</p-card>
+<p-toast></p-toast>

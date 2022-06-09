@@ -1,20 +1,24 @@
 <p-card header="Detalhe Cursos">
-  <p-table [value]="cursos">
+  <p-table [value]="cursos" responsiveLayout="scroll">
     <ng-template pTemplate="header">
       <tr>
-        <th>Code</th>
-        <th>Name</th>
-        <th>Category</th>
-        <th>Quantity</th>
+        <th>Nome</th>
+        <th>Categoria</th>
+        <th>
+          <button pButton pRipple type="button" icon="pi pi-plus" class="p-button-rounded" (click)="onCreate()"></button>
+        </th>
       </tr>
     </ng-template>
-    <ng-template pTemplate="body" let-product>
+    <ng-template pTemplate="body" let-curso>
       <tr>
-        <td>{{product.code}}</td>
-        <td>{{product.name}}</td>
-        <td>{{product.category}}</td>
-        <td>{{product.quantity}}</td>
+        <td>{{curso.name}}</td>
+        <td>{{curso.category}}</td>
+        <td>
+          <button pButton pRipple type="button" icon="pi pi-pencil" class="p-button-rounded p-button-text"></button>
+          <button pButton pRipple type="button" icon="pi pi-trash" class="p-button-rounded p-button-text" style="color: red;"></button>
+        </td>
       </tr>
     </ng-template>
   </p-table>
 </p-card>
+<p-toast></p-toast>
